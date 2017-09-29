@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+* {
+	margin: 0px; padding: 0px; text-decoration: none;
+}
+
+header img {
+	width: 100%;
+}
+body {
+	/*background-color: #E8E8E8;*/
+	background-image: url(../img/bgMain.jpg);
+}
+#MainImg {
+	width: 100%;
+}
+.TopMenu {
+	width: 100%;
+	margin-top: 25px;
+}
+.TopMenu ul{
+	list-style: none;
+	margin: auto;
+	width: 1054px;
+}
+.TopMenu li {
+	display: block;
+	float: left;
+	min-height: 45px;
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	background-color: #8E8E8E;
+}
+#MainLinks {
+	float: left;
+	color: #FAFAFA;
+	padding: 10px 30px;
+}
+#MainLinks:hover {
+	background-color: #3A3A3A;
+}
+#MainLinks, #MainLinks:hover {
+	transition: all.3s ease;
+	-o-transition: all.3s ease;
+	-moz-transition: all.3s ease;
+	-ms-transition: all.3s ease;
+	-webkit-transition: all.3s ease;
+
+}
+#Preview {
+	height: 1000px;
+	margin-top: 45px;
+}
+.PreviewBlock {
+	width: 360px;
+	height: 560px;
+	float: left;
+	border-radius: 3px;
+	background-color: #3A3A3A;
+	margin-left: 70px;
+	margin-top: 55px;
+}
+.PreviewBlock:hover {
+	background-color: #8E8E8E;
+}
+.PreviewBlock, .PreviewBlock:hover {
+	transition: all.3s ease;
+	-o-transition: all.3s ease;
+	-moz-transition: all.3s ease;
+	-ms-transition: all.3s ease;
+	-webkit-transition: all.3s ease;
+}
+
+
+.PreviewBlock h3 {
+	font-family: Arial, sans-serif;
+	margin-top: 10px;
+	font-size: 33px;
+	color: #FAFAFA;
+	letter-spacing: 0.11em;
+}
+.PreviewBlock h3:hover {
+	letter-spacing: 0.17em;
+	color: #3A3A3A;
+}
+.PreviewBlock h3, .PreviewBlock h3:hover {
+	transition: all.3s ease;
+	-o-transition: all.3s ease;
+	-moz-transition: all.3s ease;
+	-ms-transition: all.3s ease;
+	-webkit-transition: all.3s ease;
+}
+.PreviewImg {
+	padding: 25px 50px;
+	width: 250px;
+	-webkit-filter: saturate (200%);
+}
+.PreviewImg:hover {
+	width: 257px;
+}
+.PreviewImg, .PreviewImg:hover {
+	transition: all.5s ease;
+	-o-transition: all.5s ease;
+	-moz-transition: all.5s ease;
+	-ms-transition: all.5s ease;
+	-webkit-transition: all.5s ease;
+}
+.PreviewText {
+	color: #FAFAFA;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+.PreviewButton {
+	background-color: #FAFAFA;
+	border: 1px solid #FAFAFA;
+	border-radius: 3px;
+	font-size: 20px;
+	width: 150px;
+	height: 35px;
+	margin-top: 15px;
+}
+.PreviewButton:hover {
+	color: #FAFAFA;
+	border-radius: 7px;
+	background-color: #3A3A3A;
+}
+.PreviewButton, .PreviewButton:hover {
+	transition: all.5s ease;
+	-o-transition: all.5s ease;
+	-moz-transition: all.5s ease;
+	-ms-transition: all.5s ease;
+	-webkit-transition: all.5s ease;
+}
